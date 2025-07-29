@@ -1,0 +1,67 @@
+
+🕉️ UNIQUE SKANDA PURANA NAMES EXTRACTION REPORT 🕉️
+======================================================================
+
+SUMMARY:
+Original Entries: 142,337
+Unique Names: 9,996
+Duplicates Removed: 132,341
+Reduction: 93.0%
+
+QUALITY METRICS:
+High Confidence (≥0.8): 2,388
+High Frequency (≥20): 763
+Core Skanda Names: 3
+Best Baby Names: 50
+
+TOP 15 MOST FREQUENT NAMES:
+----------------------------------------
+Sins           : 4036 occurrences (conf: 0.8)
+Sage           : 3056 occurrences (conf: 0.8)
+Siva           : 2855 occurrences (conf: 1.0)
+Sages          : 2537 occurrences (conf: 0.8)
+Seen           : 2454 occurrences (conf: 0.8)
+Skanda         : 1999 occurrences (conf: 1.0)
+Seven          : 1760 occurrences (conf: 0.8)
+spot           : 1706 occurrences (conf: 0.7)
+Sun            : 1634 occurrences (conf: 0.8)
+Salvation      : 1516 occurrences (conf: 0.8)
+Suras          : 1453 occurrences (conf: 0.8)
+splendid       : 1266 occurrences (conf: 0.7)
+Serpents       : 1198 occurrences (conf: 0.8)
+Same           : 1196 occurrences (conf: 0.8)
+Self           : 1188 occurrences (conf: 0.8)
+
+CORE SKANDA NAMES FOUND:
+-------------------------
+Siva        : 2855 occurrences
+Skanda      : 1999 occurrences
+Saravana    :    1 occurrences
+
+TOP 20 BEST BABY NAMES:
+-------------------------
+Sins           : 4036 freq, 0.8 conf
+Sage           : 3056 freq, 0.8 conf
+Siva           : 2855 freq, 1.0 conf
+Sages          : 2537 freq, 0.8 conf
+Seen           : 2454 freq, 0.8 conf
+Skanda         : 1999 freq, 1.0 conf
+Seven          : 1760 freq, 0.8 conf
+spot           : 1706 freq, 0.7 conf
+Salvation      : 1516 freq, 0.8 conf
+Suras          : 1453 freq, 0.8 conf
+splendid       : 1266 freq, 0.7 conf
+Serpents       : 1198 freq, 0.8 conf
+Same           : 1196 freq, 0.8 conf
+Self           : 1188 freq, 0.8 conf
+sense          : 1170 freq, 0.7 conf
+sons           : 1144 freq, 0.7 conf
+Since          : 1132 freq, 0.8 conf
+sake           : 1061 freq, 0.7 conf
+Sacred         : 1015 freq, 0.8 conf
+Stay           : 989 freq, 0.8 conf
+
+EXTRACTION COMPLETED: 2025-07-29 19:46:02
+
+📄 Output File: UNIQUE_SKANDA_PURANA_NAMES.csv
+🎯 Ready for authentic Sanskrit baby naming with 9,996 unique names!

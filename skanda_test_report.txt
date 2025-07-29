@@ -1,0 +1,23 @@
+
+🧪 SKANDA PURANA TEST EXTRACTION REPORT
+==================================================
+
+Test Scope: First PDF, first 10 pages
+Total Names Found: 206
+Known Skanda Names: 31
+
+Script Distribution:
+  roman: 206
+
+Sample Extracted Names:
+  1. SKANDA (Page Page 1)
+  2. Chowk (Page Page 2)
+  3. St (Page Page 2)
+  4. SHRI (Page Page 2)
+  5. Chapters (Page Page 3)
+  6. Churning (Page Page 3)
+  7. SECTION (Page Page 3)
+  8. Sati (Page Page 3)
+  9. Sacrific (Page Page 3)
+  10. Siva (Page Page 3)
+  ... and 196 more
