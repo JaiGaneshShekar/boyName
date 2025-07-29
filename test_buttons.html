@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Navigation Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .test-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .test-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+        .test-button:hover {
+            background: #0056b3;
+        }
+        .thiruppugazh { background: #28a745; }
+        .thiruppugazh:hover { background: #1e7e34; }
+        .skanda { background: #ff6b6b; }
+        .skanda:hover { background: #ff5252; }
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Navigation Button Test</h1>
+        <p>Test the navigation buttons to ensure they work correctly:</p>
+        
+        <button class="test-button thiruppugazh" onclick="testThiruppugazh()">
+            🎵 Test Thiruppugazh Database
+        </button>
+        
+        <button class="test-button skanda" onclick="testSkandaPurana()">
+            📚 Test Skanda Purana Database  
+        </button>
+        
+        <a href="index.html" class="test-button">
+            🏠 Back to Main Page
+        </a>
+        
+        <div id="status"></div>
+        
+        <h3>📋 File Check Results:</h3>
+        <div id="fileCheck">Checking files...</div>
+    </div>
+
+    <script>
+        function testThiruppugazh() {
+            console.log('Testing Thiruppugazh navigation...');
+            updateStatus('Opening Thiruppugazh database...', 'success');
+            window.open('thiruppugazh_names.html', '_blank');
+        }
+        
+        function testSkandaPurana() {
+            console.log('Testing Skanda Purana navigation...');
+            updateStatus('Opening Skanda Purana database...', 'success');
+            window.open('COMPLETE_SKANDA_PURANA_NAMES.html', '_blank');
+        }
+        
+        function updateStatus(message, type) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+            
+            setTimeout(() => {
+                statusDiv.innerHTML = '';
+            }, 3000);
+        }
+        
+        // Check if files exist
+        async function checkFiles() {
+            const files = [
+                'thiruppugazh_names.html',
+                'COMPLETE_SKANDA_PURANA_NAMES.html',
+                'COMPLETE_THIRUPPUGAZH_ALL_SONGS_WITH_NUMBERS_FINAL.csv'
+            ];
+            
+            let results = '<ul>';
+            
+            for (const file of files) {
+                try {
+                    const response = await fetch(file, { method: 'HEAD' });
+                    if (response.ok) {
+                        results += `<li style="color: green;">✅ ${file} - Found</li>`;
+                    } else {
+                        results += `<li style="color: red;">❌ ${file} - Not found (${response.status})</li>`;
+                    }
+                } catch (error) {
+                    results += `<li style="color: red;">❌ ${file} - Error: ${error.message}</li>`;
+                }
+            }
+            
+            results += '</ul>';
+            document.getElementById('fileCheck').innerHTML = results;
+        }
+        
+        // Run file check on page load
+        document.addEventListener('DOMContentLoaded', checkFiles);
+    </script>
+</body>
+</html>

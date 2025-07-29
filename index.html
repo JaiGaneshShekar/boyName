@@ -394,118 +394,45 @@
         
         // Navigation functions
         function openThiruppugazh() {
-            // Check if the CSV file exists and load dynamically
-            fetch('COMPLETE_THIRUPPUGAZH_ALL_SONGS_WITH_NUMBERS_FINAL.csv')
-                .then(response => {
-                    if (response.ok) {
-                        // Create and open Thiruppugazh page
-                        createThiruppugazhPage();
-                    } else {
-                        alert('Thiruppugazh CSV data not found. Please ensure COMPLETE_THIRUPPUGAZH_ALL_SONGS_WITH_NUMBERS_FINAL.csv is available.');
-                    }
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    alert('Error loading Thiruppugazh data. Please check the CSV file.');
-                });
+            console.log('Opening Thiruppugazh database...');
+            // Open Thiruppugazh names page directly
+            window.open('thiruppugazh_names.html', '_blank');
         }
         
         function openSkandaPurana() {
-            // Check if the HTML file exists
-            fetch('COMPLETE_SKANDA_PURANA_NAMES.html')
-                .then(response => {
-                    if (response.ok) {
-                        // Open Skanda Purana page
-                        window.open('COMPLETE_SKANDA_PURANA_NAMES.html', '_blank');
-                    } else {
-                        alert('Skanda Purana HTML not found. Please ensure COMPLETE_SKANDA_PURANA_NAMES.html is available.');
-                    }
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    alert('Error loading Skanda Purana data. Please check the HTML file.');
+            console.log('Opening Skanda Purana database...');
+            // Open Skanda Purana page directly
+            window.open('COMPLETE_SKANDA_PURANA_NAMES.html', '_blank');
+        }
+        
+        // Add hover effects and click handlers
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add hover effects
+            document.querySelectorAll('.database-card').forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px)';
                 });
-        }
-        
-        function createThiruppugazhPage() {
-            // Create dynamic Thiruppugazh page
-            const newWindow = window.open('', '_blank');
-            newWindow.document.write(`
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Thiruppugazh Names Database - With Meanings</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            overflow: hidden;
-        }
-        .header {
-            text-align: center;
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
-            color: white;
-            padding: 40px 20px;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2.5em;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-        .loading {
-            text-align: center;
-            padding: 40px;
-            font-size: 1.2em;
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>🎵 Complete Thiruppugazh Names Database 🎵</h1>
-            <h2>Lord Subramanya Swamy Names with Complete Meanings</h2>
-            <p>Extracted from All 1,340 Thiruppugazh Songs</p>
-        </div>
-        <div class="loading">
-            📖 Loading Thiruppugazh names database...
-            <br><br>
-            Please ensure COMPLETE_THIRUPPUGAZH_ALL_SONGS_WITH_NUMBERS_FINAL.csv is in the same directory.
-        </div>
-    </div>
-    <script>
-        // This would load the actual CSV data dynamically
-        // For now, redirect to a static version if available
-        setTimeout(() => {
-            window.location.href = 'thiruppugazh_names.html';
-        }, 2000);
-    </script>
-</body>
-</html>
-            `);
-            newWindow.document.close();
-        }
-        
-        // Add hover effects
-        document.querySelectorAll('.database-card').forEach(card => {
-            card.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-10px)';
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
             });
             
-            card.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0)';
+            // Add button click handlers as backup
+            const thiruppugazhButtons = document.querySelectorAll('[onclick*="openThiruppugazh"]');
+            thiruppugazhButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    openThiruppugazh();
+                });
+            });
+            
+            const skandaButtons = document.querySelectorAll('[onclick*="openSkandaPurana"]');
+            skandaButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    openSkandaPurana();
+                });
             });
         });
     </script>
