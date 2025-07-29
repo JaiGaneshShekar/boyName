@@ -224,9 +224,52 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+        
+        /* Loading overlay styles */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .loading-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 400px;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #28a745;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
+    <!-- Loading overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <h3 id="loadingText">Loading database...</h3>
+            <p>Please wait while we prepare your sacred names database.</p>
+        </div>
+    </div>
+
     <div class="main-container">
         <div class="header">
             <h1>🕉️ Complete Sanskrit Names Database 🕉️</h1>
@@ -236,7 +279,7 @@
 
         <div class="database-selector">
             <!-- Thiruppugazh Database Card -->
-            <div class="database-card thiruppugazh" onclick="openThiruppugazh()">
+            <div class="database-card thiruppugazh" data-database="thiruppugazh">
                 <div class="card-header">
                     <div class="card-icon">🎵</div>
                     <div class="card-title">
@@ -276,13 +319,13 @@
                     </ul>
                 </div>
                 
-                <button class="launch-button" onclick="openThiruppugazh()">
+                <button class="launch-button" onclick="launchDatabase('thiruppugazh')">
                     Explore Thiruppugazh Names
                 </button>
             </div>
 
             <!-- Skanda Purana Database Card -->
-            <div class="database-card skanda" onclick="openSkandaPurana()">
+            <div class="database-card skanda" data-database="skanda">
                 <div class="card-header">
                     <div class="card-icon">📚</div>
                     <div class="card-title">
@@ -322,7 +365,7 @@
                     </ul>
                 </div>
                 
-                <button class="launch-button" onclick="openSkandaPurana()">
+                <button class="launch-button" onclick="launchDatabase('skanda')">
                     Explore Skanda Purana Names
                 </button>
             </div>
@@ -392,23 +435,101 @@
         // Set current date
         document.getElementById('currentDate').textContent = new Date().toLocaleDateString();
         
-        // Navigation functions
-        function openThiruppugazh() {
-            console.log('Opening Thiruppugazh database...');
-            // Open Thiruppugazh names page directly
-            window.open('thiruppugazh_names.html', '_blank');
+        // Enhanced navigation function that works both locally and live
+        function launchDatabase(databaseType) {
+            console.log(`Launching ${databaseType} database...`);
+            
+            // Show loading overlay
+            showLoading(databaseType);
+            
+            // Define database files
+            const databases = {
+                'thiruppugazh': 'thiruppugazh_names.html',
+                'skanda': 'COMPLETE_SKANDA_PURANA_NAMES.html'
+            };
+            
+            const fileName = databases[databaseType];
+            
+            if (!fileName) {
+                hideLoading();
+                alert('Database type not found!');
+                return;
+            }
+            
+            // Try multiple approaches for maximum compatibility
+            setTimeout(() => {
+                try {
+                    // Method 1: Try direct window.open
+                    const newWindow = window.open(fileName, '_blank');
+                    
+                    // Check if popup was blocked
+                    if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {
+                        // Method 2: Try location change in same window
+                        if (confirm(`Popup blocked! Open ${databaseType} database in current tab?`)) {
+                            window.location.href = fileName;
+                        }
+                    } else {
+                        // Success - check if window loaded
+                        setTimeout(() => {
+                            try {
+                                if (newWindow.location.href === 'about:blank') {
+                                    // Fallback - try again
+                                    newWindow.location.href = fileName;
+                                }
+                            } catch (e) {
+                                // Cross-origin restrictions - assume it worked
+                                console.log('Window opened successfully (cross-origin)');
+                            }
+                        }, 100);
+                    }
+                } catch (error) {
+                    console.error('Error opening database:', error);
+                    // Method 3: Create link and click it
+                    const link = document.createElement('a');
+                    link.href = fileName;
+                    link.target = '_blank';
+                    link.style.display = 'none';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }
+                
+                hideLoading();
+            }, 500); // Small delay for better UX
         }
         
-        function openSkandaPurana() {
-            console.log('Opening Skanda Purana database...');
-            // Open Skanda Purana page directly
-            window.open('COMPLETE_SKANDA_PURANA_NAMES.html', '_blank');
+        function showLoading(databaseType) {
+            const overlay = document.getElementById('loadingOverlay');
+            const text = document.getElementById('loadingText');
+            
+            if (databaseType === 'thiruppugazh') {
+                text.textContent = 'Loading Thiruppugazh Names Database...';
+                document.querySelector('.spinner').style.borderTopColor = '#28a745';
+            } else {
+                text.textContent = 'Loading Skanda Purana Names Database...';
+                document.querySelector('.spinner').style.borderTopColor = '#ff6b6b';
+            }
+            
+            overlay.style.display = 'flex';
         }
         
-        // Add hover effects and click handlers
+        function hideLoading() {
+            document.getElementById('loadingOverlay').style.display = 'none';
+        }
+        
+        // Add click handlers to cards as well
         document.addEventListener('DOMContentLoaded', function() {
-            // Add hover effects
+            // Card click handlers
             document.querySelectorAll('.database-card').forEach(card => {
+                card.addEventListener('click', function(e) {
+                    // Don't trigger if clicking the button
+                    if (!e.target.closest('.launch-button')) {
+                        const databaseType = this.getAttribute('data-database');
+                        launchDatabase(databaseType);
+                    }
+                });
+                
+                // Hover effects
                 card.addEventListener('mouseenter', function() {
                     this.style.transform = 'translateY(-10px)';
                 });
@@ -418,22 +539,21 @@
                 });
             });
             
-            // Add button click handlers as backup
-            const thiruppugazhButtons = document.querySelectorAll('[onclick*="openThiruppugazh"]');
-            thiruppugazhButtons.forEach(button => {
-                button.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    openThiruppugazh();
-                });
+            // Add keyboard support
+            document.addEventListener('keydown', function(e) {
+                if (e.key === '1') {
+                    launchDatabase('thiruppugazh');
+                } else if (e.key === '2') {
+                    launchDatabase('skanda');
+                }
             });
-            
-            const skandaButtons = document.querySelectorAll('[onclick*="openSkandaPurana"]');
-            skandaButtons.forEach(button => {
-                button.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    openSkandaPurana();
-                });
-            });
+        });
+        
+        // Handle visibility change (for mobile browsers)
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) {
+                hideLoading();
+            }
         });
     </script>
 </body>
