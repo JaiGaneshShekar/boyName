@@ -1,0 +1,36 @@
+
+🕉️ THIRUPPUGAZH EXTRACTION WITH SONG NUMBERS - SUMMARY 🕉️
+======================================================================
+
+📊 EXTRACTION STATISTICS:
+   • Total Names Extracted: 1631
+   • Unique Names: 316
+   • High Confidence Names (≥0.7): 47
+   • Songs with Names Found: 230
+   • Song Number Range: 7 to 1338
+
+📚 NAME CATEGORIES:
+   • Secondary Divine Name: 220
+   • Divine Epithet: 75
+   • Primary Divine Name: 19
+   • Divine Attribute: 2
+
+📿 TOP NAMES WITH SONG NUMBERS:
+    1. Saravanabava (Song 374, Confidence: 1.00)
+    2. Saravana (Song 7, Confidence: 0.90)
+    3. Saravanabhava (Song 1215, Confidence: 0.90)
+    4. Saravanan (Song 317, Confidence: 0.90)
+    5. Saravanaiyil (Song 860, Confidence: 0.90)
+    6. Saravanabavanidhi (Song 525, Confidence: 0.90)
+    7. Saravanajadha (Song 584, Confidence: 0.90)
+    8. Siva (Song 52, Confidence: 0.80)
+    9. Sivan (Song 240, Confidence: 0.80)
+   10. Sivap (Song 41, Confidence: 0.80)
+
+🎯 CSV EXPORT READY:
+   CSV file includes the specific song number (X) from the URL pattern:
+   https://kaumaram.com/thiru/nnt000X_u.html#english
+   
+   This allows you to trace each name back to its exact source song.
+
+======================================================================

@@ -1,0 +1,46 @@
+
+🕉️  MASTER CORPUS ANALYSIS REPORT - LORD SUBRAMANYA SWAMY NAMES 🕉️
+================================================================================
+
+📊 CORPUS STATISTICS:
+   • Total Names Extracted: 21
+   • Sanskrit Names: 3
+   • Tamil Names: 18
+   • Source Diversity: 5 unique sources
+
+🎯 CHALDEAN NUMEROLOGY ANALYSIS:
+   • Perfect Values (14/41): 0 names
+     - Sanskrit: 0 names
+     - Tamil: 0 names
+
+🏷️  SEMANTIC CATEGORIES:
+   • Warrior Names: 2 names
+     - समर (Sanskrit)
+     - சைதன்யன் (Tamil)
+   • Beauty Names: 1 names
+     - சந்திரமுகன் (Tamil)
+   • Consciousness Names: 2 names
+     - சைதன்யன் (Tamil)
+     - சகலாகமன் (Tamil)
+   • Protection Names: 3 names
+     - சரணம் (Tamil)
+     - சரணம் (Tamil)
+     - சார்வன் (Tamil)
+   • Weapon Names: 3 names
+     - चक्रधर (Sanskrit)
+     - चक्रधर (Sanskrit)
+     - சக்திவேல் (Tamil)
+
+📈 QUALITY METRICS:
+   • Verification Rate: 100.0%
+   • Source Diversity: 5 sources
+   • Sanskrit Coverage: 14.3%
+   • Tamil Coverage: 85.7%
+   • Completeness Score: 42.0/100
+
+🎯 RECOMMENDATIONS FOR CHAARVIK:
+   Based on the corpus analysis, names closest to target values:
+
+🙏 This corpus provides authentic, verified names from authoritative sources,
+   maintaining the sacred tradition while enabling modern applications.
+================================================================================

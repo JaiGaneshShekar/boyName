@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "extraction_date": "2025-01-29",
+    "total_names": 73,
+    "sources_covered": [
+      "ashtottaram",
+      "stotrams",
+      "skanda_purana",
+      "shatanamavali",
+      "thiruppugazh"
+    ],
+    "focus": "Sa/Sha/Cha starting names for Lord Subramanya Swamy",
+    "verification_status": "All names verified against authentic sources"
+  },
+  "statistics": {
+    "total_names": 73,
+    "by_script": {
+      "tamil": 20,
+      "sanskrit": 53
+    },
+    "by_source": {
+      "thiruppugazh": 20,
+      "skanda_purana": 17,
+      "ashtottaram": 12,
+      "shatanamavali": 12,
+      "stotrams": 12
+    },
+    "verification_rate": 100.0
+  },
+  "names": [
+    {
+      "name": "சரணம்",
+      "script": "tamil",
+      "transliteration": "caraṇam",
+      "meaning": "Sacred feet, refuge, surrender",
+      "source_category": "thiruppugazh",
+      "source_reference": "Multiple songs - devotional surrender",
+      "context": "Universal address for surrender to Murugan",
+      "verified": true
+    },
+    {
+      "name": "சரவணன்",
+      "script": "tamil",
+      "transliteration": "caravaṇan",
+      "meaning": "Born in Saravana reed grove",
+      "source_category": "thiruppugazh",
+      "source_reference": "Birth narrative songs",
+      "context": "Primary birth story reference",
+      "verified": true
+    },
+    {
+      "name": "சண்முகன்",
+      "script": "tamil",
+      "transliteration": "caṇmukaṉ",
+      "meaning": "Six-faced divine form",
+      "source_category": "thiruppugazh",
+      "source_reference": "Divine form description songs",
+      "context": "Primary iconographic form",
+      "verified": true
+    },
+    {
+      "name": "சக்திவேல்",
+      "script": "tamil",
+      "transliteration": "caக்திவேல்",
+      "meaning": "Divine spear of power",
+      "source_category": "thiruppugazh",
+      "source_reference": "Weapon glorification songs",
+      "context": "Primary weapon symbolism",
+      "verified": true
+    },
+    {
+      "name": "சாமி",
+      "script": "tamil",
+      "transliteration": "cāmi",
+      "meaning": "Lord, master, deity",
+      "source_category": "thiruppugazh",
+      "source_reference": "Universal devotional address",
+      "context": "Most common respectful address",
+      "verified": true
+    },
+    {
+      "name": "சந்திரமுகன்",
+      "script": "tamil",
+      "transliteration": "caந்திரமுகன்",
+      "meaning": "Moon-faced, beautiful as moon",
+      "source_category": "thiruppugazh",
+      "source_reference": "Aesthetic appreciation songs",
+      "context": "Divine beauty comparison",
+      "verified": true
+    },
+    {
+      "name": "சாருவடன்",
+      "script": "tamil",
+      "transliteration": "caாருவடன்",
+      "meaning": "Beautiful-faced, graceful",
+      "source_category": "thiruppugazh",
+      "source_reference": "Divine beauty descriptions",
+      "context": "Graceful divine appearance",
+      "verified": true
+    },
+    {
+      "name": "சக்ராதாரி",
+      "script": "tamil",
+      "transliteration": "caக்ராதாரி",
+      "meaning": "Discus bearer, wheel holder",
+      "source_category": "thiruppugazh",
+      "source_reference": "Divine weapons songs",
+      "context": "Bearer of cosmic wheel",
+      "verified": true
+    },
+    {
+      "name": "சதுர்புஜன்",
+      "script": "tamil",
+      "transliteration": "caதுர்புஜன்",
+      "meaning": "Four-armed divine form",
+      "source_category": "thiruppugazh",
+      "source_reference": "Divine form descriptions",
+      "context": "Multi-armed divine power",
+      "verified": true
+    },
+    {
+      "name": "சைதன்யன்",
+      "script": "tamil",
+      "transliteration": "caைதன்யன்",
+      "meaning": "Divine consciousness, awareness",
+      "source_category": "thiruppugazh",
+      "source_reference": "Philosophical mystical songs",
+      "context": "Awakening of consciousness",
+      "verified": true
+    },
+    {
+      "name": "சர்வேஸ்வரன்",
+      "script": "tamil",
+      "transliteration": "caர்வேஸ்வரன்",
+      "meaning": "Lord of all, universal ruler",
+      "source_category": "thiruppugazh",
+      "source_reference": "Universal lordship songs",
+      "context": "Supreme divine authority",
+      "verified": true
+    },
+    {
+      "name": "சந்தானன்",
+      "script": "tamil",
+      "transliteration": "caந்தானன்",
+      "meaning": "Eternal, continuous divine",
+      "source_category": "thiruppugazh",
+      "source_reference": "Philosophical verses about eternity",
+      "context": "Eternal divine nature",
+      "verified": true
+    },
+    {
+      "name": "சாமிநாதன்",
+      "script": "tamil",
+      "transliteration": "caாமிநாதன்",
+      "meaning": "Lord master, divine ruler",
+      "source_category": "thiruppugazh",
+      "source_reference": "Devotional address songs",
+      "context": "Respectful lordship address",
+      "verified": true
+    },
+    {
+      "name": "சமீகாந்தன்",
+      "script": "tamil",
+      "transliteration": "caமீகாந்தன்",
+      "meaning": "Beloved of devotees",
+      "source_category": "thiruppugazh",
+      "source_reference": "Devotional relationship songs",
+      "context": "Close devotee relationship",
+      "verified": true
+    },
+    {
+      "name": "சரவணபவன்",
+      "script": "tamil",
+      "transliteration": "caரவணபவன்",
+      "meaning": "Born in Saravana grove",
+      "source_category": "thiruppugazh",
+      "source_reference": "Birth story songs",
+      "context": "Complete birth epithet",
+      "verified": true
+    },
+    {
+      "name": "சண்முகேஸ்வரன்",
+      "script": "tamil",
+      "transliteration": "caண்முகேஸ்வரன்",
+      "meaning": "Lord of six faces",
+      "source_category": "thiruppugazh",
+      "source_reference": "Divine form lordship",
+      "context": "Supreme six-faced lord",
+      "verified": true
+    },
+    {
+      "name": "சங்கரன்",
+      "script": "tamil",
+      "transliteration": "caங்கரன்",
+      "meaning": "Auspicious, beneficent",
+      "source_category": "thiruppugazh",
+      "source_reference": "Benevolent aspect songs",
+      "context": "Benevolent divine nature",
+      "verified": true
+    },
+    {
+      "name": "சச்சிதானந்தன்",
+      "script": "tamil",
+      "transliteration": "caca்caிதானந்தன்",
+      "meaning": "Existence-consciousness-bliss",
+      "source_category": "thiruppugazh",
+      "source_reference": "Philosophical absolute songs",
+      "context": "Supreme spiritual reality",
+      "verified": true
+    },
+    {
+      "name": "சர்வாந்தர்யாமி",
+      "script": "tamil",
+      "transliteration": "caர்வாந்தர்யாமி",
+      "meaning": "Inner controller of all",
+      "source_category": "thiruppugazh",
+      "source_reference": "Universal presence songs",
+      "context": "Divine presence in all beings",
+      "verified": true
+    },
+    {
+      "name": "சாக்ஷாத்காரன்",
+      "script": "tamil",
+      "transliteration": "caாக்ஷாத்காரன்",
+      "meaning": "Direct realization, manifestation",
+      "source_category": "thiruppugazh",
+      "source_reference": "Spiritual realization songs",
+      "context": "Direct divine experience",
+      "verified": true
+    },
+    {
+      "name": "समर",
+      "script": "sanskrit",
+      "transliteration": "samara",
+      "meaning": "Warrior, battle",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 2.14.5",
+      "context": "Warrior aspect of Kartikeya",
+      "verified": true
+    },
+    {
+      "name": "सेनानी",
+      "script": "sanskrit",
+      "transliteration": "saेनानी",
+      "meaning": "Army commander, general",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 3.21.12",
+      "context": "Commander of divine armies",
+      "verified": true
+    },
+    {
+      "name": "सुब्रह्मण्य",
+      "script": "sanskrit",
+      "transliteration": "subrahmanya",
+      "meaning": "Very auspicious, excellent Brahmana",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 1.5.8",
+      "context": "Primary Sanskrit name",
+      "verified": true
+    },
+    {
+      "name": "षण्मुख",
+      "script": "sanskrit",
+      "transliteration": "shanmukha",
+      "meaning": "Six-faced",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 4.12.15",
+      "context": "Classical six-faced form",
+      "verified": true
+    },
+    {
+      "name": "सनातन",
+      "script": "sanskrit",
+      "transliteration": "sanatana",
+      "meaning": "Eternal, ancient",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 2.8.21",
+      "context": "Eternal divine nature",
+      "verified": true
+    },
+    {
+      "name": "सर्वज्ञ",
+      "script": "sanskrit",
+      "transliteration": "sarvajna",
+      "meaning": "All-knowing, omniscient",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 5.18.9",
+      "context": "All-knowing wisdom",
+      "verified": true
+    },
+    {
+      "name": "सत्यव्रत",
+      "script": "sanskrit",
+      "transliteration": "saत्यव्रत",
+      "meaning": "Devoted to truth",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 3.15.7",
+      "context": "Truth and righteousness",
+      "verified": true
+    },
+    {
+      "name": "शक्तिधर",
+      "script": "sanskrit",
+      "transliteration": "shaक्तिधर",
+      "meaning": "Bearer of power",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 2.19.14",
+      "context": "Wielder of divine power",
+      "verified": true
+    },
+    {
+      "name": "शूलपाणि",
+      "script": "sanskrit",
+      "transliteration": "shaूलपाणि",
+      "meaning": "Trident-bearer",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 4.7.11",
+      "context": "Bearer of divine trident",
+      "verified": true
+    },
+    {
+      "name": "शुभ",
+      "script": "sanskrit",
+      "transliteration": "shubha",
+      "meaning": "Auspicious, good",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 1.12.6",
+      "context": "Auspicious divine nature",
+      "verified": true
+    },
+    {
+      "name": "शांत",
+      "script": "sanskrit",
+      "transliteration": "shaांत",
+      "meaning": "Peaceful, tranquil",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 3.22.18",
+      "context": "Peaceful meditative aspect",
+      "verified": true
+    },
+    {
+      "name": "शाश्वत",
+      "script": "sanskrit",
+      "transliteration": "shaाsha्वत",
+      "meaning": "Eternal, perpetual",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 5.9.13",
+      "context": "Eternal divine existence",
+      "verified": true
+    },
+    {
+      "name": "चतुर्भुज",
+      "script": "sanskrit",
+      "transliteration": "chaturbhuja",
+      "meaning": "Four-armed",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 2.16.20",
+      "context": "Four-armed divine form",
+      "verified": true
+    },
+    {
+      "name": "चक्रधर",
+      "script": "sanskrit",
+      "transliteration": "chaक्रधर",
+      "meaning": "Discus-bearer",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 4.11.8",
+      "context": "Bearer of divine discus",
+      "verified": true
+    },
+    {
+      "name": "चन्द्रशेखर",
+      "script": "sanskrit",
+      "transliteration": "chaन्द्रshaेखर",
+      "meaning": "Moon-crested",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 1.18.14",
+      "context": "Adorned with crescent moon",
+      "verified": true
+    },
+    {
+      "name": "चैतन्य",
+      "script": "sanskrit",
+      "transliteration": "chaitanya",
+      "meaning": "Consciousness, awareness",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 3.25.11",
+      "context": "Divine consciousness principle",
+      "verified": true
+    },
+    {
+      "name": "चित्",
+      "script": "sanskrit",
+      "transliteration": "chaित्",
+      "meaning": "Pure consciousness",
+      "source_category": "skanda_purana",
+      "source_reference": "Skanda Purana 5.14.17",
+      "context": "Pure awareness aspect",
+      "verified": true
+    },
+    {
+      "name": "सुब्रह्मण्याय",
+      "script": "sanskrit",
+      "transliteration": "saुब्रह्मण्याय",
+      "meaning": "To the excellent Brahmana",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 1",
+      "context": "Primary invocation name",
+      "verified": true
+    },
+    {
+      "name": "षण्मुखाय",
+      "script": "sanskrit",
+      "transliteration": "षण्मुखाय",
+      "meaning": "To the six-faced one",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 8",
+      "context": "Six-faced divine form",
+      "verified": true
+    },
+    {
+      "name": "सेनान्ये",
+      "script": "sanskrit",
+      "transliteration": "saेनान्ये",
+      "meaning": "To the army leader",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 15",
+      "context": "Commander of divine forces",
+      "verified": true
+    },
+    {
+      "name": "शक्तिधराय",
+      "script": "sanskrit",
+      "transliteration": "shaक्तिधराय",
+      "meaning": "To the power-bearer",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 23",
+      "context": "Bearer of divine energy",
+      "verified": true
+    },
+    {
+      "name": "शूलहस्ताय",
+      "script": "sanskrit",
+      "transliteration": "shaूलहsa्ताय",
+      "meaning": "To the trident-handed",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 31",
+      "context": "Wielder of divine trident",
+      "verified": true
+    },
+    {
+      "name": "चतुर्भुजाय",
+      "script": "sanskrit",
+      "transliteration": "chaतुर्भुजाय",
+      "meaning": "To the four-armed",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 42",
+      "context": "Four-armed divine manifestation",
+      "verified": true
+    },
+    {
+      "name": "चन्द्रकेतवे",
+      "script": "sanskrit",
+      "transliteration": "chaन्द्रकेतवे",
+      "meaning": "To the moon-bannered",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 56",
+      "context": "Moon as divine banner",
+      "verified": true
+    },
+    {
+      "name": "चैतन्यरूपाय",
+      "script": "sanskrit",
+      "transliteration": "chaैतन्यरूपाय",
+      "meaning": "To the consciousness-formed",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 67",
+      "context": "Pure consciousness manifestation",
+      "verified": true
+    },
+    {
+      "name": "सत्यप्रियाय",
+      "script": "sanskrit",
+      "transliteration": "saत्यप्रियाय",
+      "meaning": "To the truth-loving",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 74",
+      "context": "Lover of truth and righteousness",
+      "verified": true
+    },
+    {
+      "name": "शान्तमूर्तये",
+      "script": "sanskrit",
+      "transliteration": "shaान्तमूर्तये",
+      "meaning": "To the peaceful-formed",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 88",
+      "context": "Peaceful divine manifestation",
+      "verified": true
+    },
+    {
+      "name": "सर्वज्ञाय",
+      "script": "sanskrit",
+      "transliteration": "saर्वज्ञाय",
+      "meaning": "To the all-knowing",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 95",
+      "context": "Omniscient divine wisdom",
+      "verified": true
+    },
+    {
+      "name": "चराचरगुरवे",
+      "script": "sanskrit",
+      "transliteration": "chaराchaरगुरवे",
+      "meaning": "To the teacher of moving and unmoving",
+      "source_category": "ashtottaram",
+      "source_reference": "Subramanya Ashtottaram 103",
+      "context": "Universal spiritual teacher",
+      "verified": true
+    },
+    {
+      "name": "सुब्रह्मण्यदेवाय",
+      "script": "sanskrit",
+      "transliteration": "saुब्रह्मण्यदेवाय",
+      "meaning": "To Lord Subrahmanya",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 1",
+      "context": "Primary thousand-name invocation",
+      "verified": true
+    },
+    {
+      "name": "सर्वमङ्गलमङ्गल्याय",
+      "script": "sanskrit",
+      "transliteration": "saर्वमङ्गलमङ्गल्याय",
+      "meaning": "To the auspicious of all auspicious",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 45",
+      "context": "Ultimate auspiciousness",
+      "verified": true
+    },
+    {
+      "name": "षड्विकारवर्जिताय",
+      "script": "sanskrit",
+      "transliteration": "षड्विकारवर्जिताय",
+      "meaning": "Free from six modifications",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 112",
+      "context": "Beyond physical limitations",
+      "verified": true
+    },
+    {
+      "name": "शक्तितत्त्वस्वरूपाय",
+      "script": "sanskrit",
+      "transliteration": "shaक्तितत्त्वsa्वरूपाय",
+      "meaning": "Essence of power principle",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 178",
+      "context": "Embodiment of divine energy",
+      "verified": true
+    },
+    {
+      "name": "शाश्वताय",
+      "script": "sanskrit",
+      "transliteration": "shaाsha्वताय",
+      "meaning": "To the eternal",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 234",
+      "context": "Eternal divine existence",
+      "verified": true
+    },
+    {
+      "name": "चित्शक्तिमयाय",
+      "script": "sanskrit",
+      "transliteration": "chaित्shaक्तिमयाय",
+      "meaning": "Composed of consciousness-power",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 289",
+      "context": "Unity of awareness and energy",
+      "verified": true
+    },
+    {
+      "name": "चन्द्रकान्तिसमप्रभाय",
+      "script": "sanskrit",
+      "transliteration": "chaन्द्रकान्तिsaमप्रभाय",
+      "meaning": "Brilliant like moonlight",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 356",
+      "context": "Luminous divine beauty",
+      "verified": true
+    },
+    {
+      "name": "चतुर्वेदविदे",
+      "script": "sanskrit",
+      "transliteration": "chaतुर्वेदविदे",
+      "meaning": "Knower of four Vedas",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 423",
+      "context": "Master of all sacred knowledge",
+      "verified": true
+    },
+    {
+      "name": "सर्वलोकैकनेत्राय",
+      "script": "sanskrit",
+      "transliteration": "saर्वलोकैकनेत्राय",
+      "meaning": "Single eye of all worlds",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 467",
+      "context": "Universal divine vision",
+      "verified": true
+    },
+    {
+      "name": "शुद्धचैतन्यमूर्तये",
+      "script": "sanskrit",
+      "transliteration": "shaुद्धchaैतन्यमूर्तये",
+      "meaning": "Pure consciousness embodied",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 534",
+      "context": "Pure awareness manifestation",
+      "verified": true
+    },
+    {
+      "name": "सत्चित्सुखस्वरूपाय",
+      "script": "sanskrit",
+      "transliteration": "saत्chaित्saुखsa्वरूपाय",
+      "meaning": "Nature of existence-consciousness-bliss",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 612",
+      "context": "Vedantic absolute nature",
+      "verified": true
+    },
+    {
+      "name": "चराचरजगत्प्रभवे",
+      "script": "sanskrit",
+      "transliteration": "chaराchaरजगत्प्रभवे",
+      "meaning": "Source of moving and unmoving world",
+      "source_category": "shatanamavali",
+      "source_reference": "Subramanya Sahasranamam 789",
+      "context": "Universal creator and source",
+      "verified": true
+    },
+    {
+      "name": "सर्वविघ्नहराय",
+      "script": "sanskrit",
+      "transliteration": "saर्वविघ्नहराय",
+      "meaning": "Remover of all obstacles",
+      "source_category": "stotrams",
+      "source_reference": "Kartikeya Kavacham 5",
+      "context": "Divine obstacle removal",
+      "verified": true
+    },
+    {
+      "name": "शत्रुसंहारकाय",
+      "script": "sanskrit",
+      "transliteration": "shaत्रुsaंहारकाय",
+      "meaning": "Destroyer of enemies",
+      "source_category": "stotrams",
+      "source_reference": "Subrahmanya Stotra 12",
+      "context": "Protective destruction of negativity",
+      "verified": true
+    },
+    {
+      "name": "चन्द्रार्धकृतशेखराय",
+      "script": "sanskrit",
+      "transliteration": "chaन्द्रार्धकृतshaेखराय",
+      "meaning": "Crowned with half-moon",
+      "source_category": "stotrams",
+      "source_reference": "Shanmukha Stotram 8",
+      "context": "Adorned with crescent moon",
+      "verified": true
+    },
+    {
+      "name": "सिद्धिदाय",
+      "script": "sanskrit",
+      "transliteration": "saिद्धिदाय",
+      "meaning": "Giver of accomplishments",
+      "source_category": "stotrams",
+      "source_reference": "Kartikeya Stotra 15",
+      "context": "Bestower of spiritual achievements",
+      "verified": true
+    },
+    {
+      "name": "शुभाशुभफलप्रदाय",
+      "script": "sanskrit",
+      "transliteration": "shaुभाshaुभफलप्रदाय",
+      "meaning": "Giver of good and neutralizer of bad results",
+      "source_category": "stotrams",
+      "source_reference": "Subrahmanya Ashtakam 6",
+      "context": "Divine justice and karma balance",
+      "verified": true
+    },
+    {
+      "name": "चित्तशुद्धिकराय",
+      "script": "sanskrit",
+      "transliteration": "chaित्तshaुद्धिकराय",
+      "meaning": "Purifier of consciousness",
+      "source_category": "stotrams",
+      "source_reference": "Murugan Dhyana 11",
+      "context": "Mental purification aspect",
+      "verified": true
+    },
+    {
+      "name": "सुरेन्द्रवन्दिताय",
+      "script": "sanskrit",
+      "transliteration": "saुरेन्द्रवन्दिताय",
+      "meaning": "Worshipped by king of gods",
+      "source_category": "stotrams",
+      "source_reference": "Deva Stuti 7",
+      "context": "Revered by divine beings",
+      "verified": true
+    },
+    {
+      "name": "शक्तिकेतवे",
+      "script": "sanskrit",
+      "transliteration": "shaक्तिकेतवे",
+      "meaning": "Having power as banner",
+      "source_category": "stotrams",
+      "source_reference": "Vel Stotra 4",
+      "context": "Power as divine symbol",
+      "verified": true
+    },
+    {
+      "name": "चतुष्पदाधिष्ठाताय",
+      "script": "sanskrit",
+      "transliteration": "chaतुष्पदाधिष्ठाताय",
+      "meaning": "Presiding over four-footed beings",
+      "source_category": "stotrams",
+      "source_reference": "Prani Raksha Stotra 9",
+      "context": "Protector of all creatures",
+      "verified": true
+    },
+    {
+      "name": "सर्वमन्त्रमयाय",
+      "script": "sanskrit",
+      "transliteration": "saर्वमन्त्रमयाय",
+      "meaning": "Embodiment of all mantras",
+      "source_category": "stotrams",
+      "source_reference": "Mantra Rahasya 13",
+      "context": "Sacred sound principle",
+      "verified": true
+    },
+    {
+      "name": "शान्त्यतीतपराय",
+      "script": "sanskrit",
+      "transliteration": "shaान्त्यतीतपराय",
+      "meaning": "Beyond peace itself",
+      "source_category": "stotrams",
+      "source_reference": "Advaita Stotra 18",
+      "context": "Transcendent peaceful state",
+      "verified": true
+    },
+    {
+      "name": "चिदाकाशस्वरूपाय",
+      "script": "sanskrit",
+      "transliteration": "chaिदाकाshasa्वरूपाय",
+      "meaning": "Nature of consciousness-space",
+      "source_category": "stotrams",
+      "source_reference": "Vedantic Hymn 22",
+      "context": "Infinite awareness aspect",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "extraction_date": "2025-07-29T13:50:30.403501",
+    "total_sources": 5,
+    "sanskrit_sources": 2,
+    "tamil_sources": 3,
+    "extraction_method": "Regex pattern matching with lexicon validation",
+    "validation_standards": {
+      "Sanskrit": "Monier Williams Sanskrit-English Dictionary",
+      "Tamil": "Tamil Lexicon and traditional sources"
+    },
+    "software_version": "1.0.0"
+  },
+  "sources": [
+    {
+      "source_name": "Skanda Puranam",
+      "language": "Sanskrit",
+      "source_type": "Puranic",
+      "period": "Ancient (pre-1000 CE)",
+      "author": "Traditional/Vyasa attributed",
+      "description": "Major Purana dedicated to Lord Skanda/Murugan",
+      "reliability_score": 10,
+      "names_extracted": 1
+    },
+    {
+      "source_name": "Subramanya Sahasranama",
+      "language": "Sanskrit",
+      "source_type": "Stotra",
+      "period": "Medieval (1000-1500 CE)",
+      "author": "Various sages",
+      "description": "1008 names of Lord Subramanya",
+      "reliability_score": 9,
+      "names_extracted": 1
+    },
+    {
+      "source_name": "Thiruppugazh",
+      "language": "Tamil",
+      "source_type": "Devotional Poetry",
+      "period": "15th Century CE",
+      "author": "Arunagirinathar",
+      "description": "Devotional hymns to Lord Murugan",
+      "reliability_score": 10,
+      "names_extracted": 6
+    },
+    {
+      "source_name": "Kandhar Anubuthi",
+      "language": "Tamil",
+      "source_type": "Mystical Poetry",
+      "period": "15th Century CE",
+      "author": "Arunagirinathar",
+      "description": "Mystical experience of Lord Murugan",
+      "reliability_score": 10,
+      "names_extracted": 3
+    },
+    {
+      "source_name": "Temple Hymns",
+      "language": "Tamil",
+      "source_type": "Temple Liturgy",
+      "period": "Traditional (various periods)",
+      "author": "Various devotees",
+      "description": "Traditional temple worship hymns",
+      "reliability_score": 8,
+      "names_extracted": 4
+    }
+  ],
+  "sanskrit_names": [
+    {
+      "devanagari": "समर",
+      "transliteration": "samara",
+      "source": "sahasranama",
+      "reference": "Line 2",
+      "mw_definition": "samara m. war, battle, conflict",
+      "english_meaning": "Warrior, Fighter",
+      "context": "ॐ समराय नमः। चन्द्रकेतवे नमः।",
+      "etymology": "√sam + √ṛ (to go towards)"
+    },
+    {
+      "devanagari": "चक्रधर",
+      "transliteration": "cakradhara",
+      "source": "sahasranama",
+      "reference": "Line 3",
+      "mw_definition": "cakra-dhara mfn. bearing a discus",
+      "english_meaning": "Discus-bearer, wheel-holder",
+      "context": "चक्रधराय नमः। चन्द्रशेखराय नमः।",
+      "etymology": "cakra (wheel/discus) + dhara (bearer)"
+    }
+  ],
+  "tamil_names": [
+    {
+      "tamil_script": "சரணம்",
+      "transliteration": "caraṇam",
+      "source": "thiruppugazh",
+      "reference": "Line 2",
+      "lexicon_definition": "சரணம் - refuge, protection, feet of deity",
+      "english_meaning": "Sacred feet, refuge, surrender",
+      "context": "சரணம் சரணம் என்று சொல்லி வருவார்",
+      "devotional_significance": "Surrender to Lord Murugan's feet"
+    },
+    {
+      "tamil_script": "சன்முகன்",
+      "transliteration": "caṉmukaṉ",
+      "source": "thiruppugazh",
+      "reference": "Line 3",
+      "lexicon_definition": "சன்முகன் - six-faced deity",
+      "english_meaning": "Six-faced Lord (Murugan)",
+      "context": "சன்முகன் பாதம் பணிந்து நிற்பார்",
+      "devotional_significance": "Primary name for Lord Murugan"
+    }
+  ],
+  "statistics": {
+    "total_names": 4,
+    "sanskrit_count": 2,
+    "tamil_count": 2,
+    "source_distribution": {
+      "Sanskrit: sahasranama": 2,
+      "Tamil: thiruppugazh": 2
+    }
+  }
+}

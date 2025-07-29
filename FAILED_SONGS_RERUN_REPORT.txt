@@ -1,0 +1,39 @@
+
+🔄 FAILED SONGS RERUN REPORT 🔄
+==================================================
+
+📊 RERUN STATISTICS:
+   • Failed Songs List: [183, 106, 206, 906, 788, 779, 1106]
+   • Songs Successfully Reprocessed: 4
+   • Songs Still Failing: 3
+   • Total Names Recovered: 8
+
+📿 NAMES RECOVERED BY SONG:
+
+   Song 106: 1 names
+     • Siva (confidence: 0.50)
+
+   Song 206: 5 names
+     • Sivasiva (confidence: 0.50)
+     • Siva (confidence: 0.60)
+     • Swamimalai (confidence: 0.50)
+     • Saranena (confidence: 0.30)
+     • Charan (confidence: 0.30)
+
+   Song 779: 1 names
+     • Siva (confidence: 0.80)
+
+   Song 1106: 1 names
+     • Siva (confidence: 0.70)
+
+❌ SONGS STILL FAILING:
+   • Song 183: Connection issues persist
+   • Song 906: Connection issues persist
+   • Song 788: Connection issues persist
+
+🎯 COMPLETION STATUS:
+   • Recovery Success Rate: 57.1%
+   • CSV Updated: COMPLETE_THIRUPPUGAZH_ALL_SONGS_WITH_NUMBERS_UPDATED.csv
+   • Ready for your son's naming decision
+
+==================================================

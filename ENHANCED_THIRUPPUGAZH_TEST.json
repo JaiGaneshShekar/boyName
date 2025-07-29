@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "extraction_type": "enhanced_test",
+    "songs_processed": 20,
+    "total_names": 4,
+    "methodology": "Enhanced HTML parsing with confidence scoring"
+  },
+  "names": [
+    {
+      "name": "Saminathan",
+      "song_number": 6,
+      "song_title": "திருப்புகழ் - முத்தைத்தரு - Sri AruNagirinAthar's Thiruppugazh 6 muththaiththaru thiruvaruNai - Songs of Praises and Glory of Lord Murugan - Experience the Magic of Muruga",
+      "song_url": "https://kaumaram.com/thiru/nnt0006_u.html",
+      "context": "'ThiruththaNi' Thiru SAminAthan",
+      "english_meaning": "'ThiruththaNi' Thiru SAminAthan",
+      "tamil_reference": "Song 6",
+      "category": "epithet",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "name": "Siva",
+      "song_number": 11,
+      "song_title": "திருப்புகழ் - கனகந்திரள்கின்ற - Sri AruNagirinAthar's Thiruppugazh 11 kanagandhiraLgindRa thirupparangkundRam - Songs of Praises and Glory of Lord Murugan - Experience the Magic of Muruga",
+      "song_url": "https://kaumaram.com/thiru/nnt0011_u.html",
+      "context": "* MurugA incarnated as PANdiya King, Uggira PANdiyan. During PANdiya's rule, there was so much poverty that Lord SivA appeared in his dream directing him to go to Mount MEru and slash it with his golden cane. PANdiya did so, and Mount MEru showered solid gold with wh",
+      "english_meaning": "* MurugA incarnated as PANdiya King, Uggira PANdiyan. During PANdiya's rule, there was so much pover...",
+      "tamil_reference": "Song 11",
+      "category": "divine_name",
+      "confidence": 0.7
+    },
+    {
+      "name": "Saminathan",
+      "song_number": 13,
+      "song_title": "திருப்புகழ் - சந்ததம் பந்த - Sri AruNagirinAthar's Thiruppugazh 13 sandhadhambandha thirupparangkundRam - Songs of Praises and Glory of Lord Murugan - Experience the Magic of Muruga",
+      "song_url": "https://kaumaram.com/thiru/nnt0013_u.html",
+      "context": "'ThiruththaNi' Thiru SAminAthan",
+      "english_meaning": "'ThiruththaNi' Thiru SAminAthan",
+      "tamil_reference": "Song 13",
+      "category": "epithet",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "name": "Siva",
+      "song_number": 18,
+      "song_title": "திருப்புகழ் - மன்றலங் கொந்துமிசை - Sri AruNagirinAthar's Thiruppugazh 18 mandRalangkondhumisai thirupparangkundRam - Songs of Praises and Glory of Lord Murugan - Experience the Magic of Muruga",
+      "song_url": "https://kaumaram.com/thiru/nnt0018_u.html",
+      "context": "edeem Mother Earth. Then, the raging Boar became uncontrollably wild. It was conquered by Murugan who gave the horn of the boar as a souvenir to Lord SivA - VarAha PurANam. ** In KUrmAvathAram, Vishnu came as a tortoise to support Mount Manthara for churning the milky ocean. After Vishnu took the form o",
+      "english_meaning": "edeem Mother Earth. Then, the raging Boar became uncontrollably wild. It was conquered by Murugan wh...",
+      "tamil_reference": "Song 18",
+      "category": "divine_name",
+      "confidence": 0.7
+    }
+  ],
+  "failed_extractions": []
+}

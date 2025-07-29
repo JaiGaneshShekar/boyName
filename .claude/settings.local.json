@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(cd \"/mnt/c/Users/JAI GANESH/BabyName/boyName\")",
+      "Bash(python3 chaarvik_analysis.py)",
+      "WebFetch(domain:kaumaram.com)",
+      "WebFetch(domain:murugan.org)",
+      "Bash(ls:*)"
+    ],
+    "deny": []
+  }
+}

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SubramanyaNamesCorpus>
+  <Metadata>
+    <extractiondate>2025-07-29T13:50:30.403501</extractiondate>
+    <totalsources>5</totalsources>
+    <sanskritsources>2</sanskritsources>
+    <tamilsources>3</tamilsources>
+    <extractionmethod>Regex pattern matching with lexicon validation</extractionmethod>
+    <validationstandards>
+      <Sanskrit>Monier Williams Sanskrit-English Dictionary</Sanskrit>
+      <Tamil>Tamil Lexicon and traditional sources</Tamil>
+    </validationstandards>
+    <softwareversion>1.0.0</softwareversion>
+  </Metadata>
+  <Sources>
+    <Source>
+      <sourcename>Skanda Puranam</sourcename>
+      <language>Sanskrit</language>
+      <sourcetype>Puranic</sourcetype>
+      <period>Ancient (pre-1000 CE)</period>
+      <author>Traditional/Vyasa attributed</author>
+      <description>Major Purana dedicated to Lord Skanda/Murugan</description>
+      <reliabilityscore>10</reliabilityscore>
+      <namesextracted>1</namesextracted>
+    </Source>
+    <Source>
+      <sourcename>Subramanya Sahasranama</sourcename>
+      <language>Sanskrit</language>
+      <sourcetype>Stotra</sourcetype>
+      <period>Medieval (1000-1500 CE)</period>
+      <author>Various sages</author>
+      <description>1008 names of Lord Subramanya</description>
+      <reliabilityscore>9</reliabilityscore>
+      <namesextracted>1</namesextracted>
+    </Source>
+    <Source>
+      <sourcename>Thiruppugazh</sourcename>
+      <language>Tamil</language>
+      <sourcetype>Devotional Poetry</sourcetype>
+      <period>15th Century CE</period>
+      <author>Arunagirinathar</author>
+      <description>Devotional hymns to Lord Murugan</description>
+      <reliabilityscore>10</reliabilityscore>
+      <namesextracted>6</namesextracted>
+    </Source>
+    <Source>
+      <sourcename>Kandhar Anubuthi</sourcename>
+      <language>Tamil</language>
+      <sourcetype>Mystical Poetry</sourcetype>
+      <period>15th Century CE</period>
+      <author>Arunagirinathar</author>
+      <description>Mystical experience of Lord Murugan</description>
+      <reliabilityscore>10</reliabilityscore>
+      <namesextracted>3</namesextracted>
+    </Source>
+    <Source>
+      <sourcename>Temple Hymns</sourcename>
+      <language>Tamil</language>
+      <sourcetype>Temple Liturgy</sourcetype>
+      <period>Traditional (various periods)</period>
+      <author>Various devotees</author>
+      <description>Traditional temple worship hymns</description>
+      <reliabilityscore>8</reliabilityscore>
+      <namesextracted>4</namesextracted>
+    </Source>
+  </Sources>
+  <SanskritNames>
+    <Name>
+      <devanagari>समर</devanagari>
+      <transliteration>samara</transliteration>
+      <source>sahasranama</source>
+      <reference>Line 2</reference>
+      <mwdefinition>samara m. war, battle, conflict</mwdefinition>
+      <englishmeaning>Warrior, Fighter</englishmeaning>
+      <context>ॐ समराय नमः। चन्द्रकेतवे नमः।</context>
+      <etymology>√sam + √ṛ (to go towards)</etymology>
+    </Name>
+    <Name>
+      <devanagari>चक्रधर</devanagari>
+      <transliteration>cakradhara</transliteration>
+      <source>sahasranama</source>
+      <reference>Line 3</reference>
+      <mwdefinition>cakra-dhara mfn. bearing a discus</mwdefinition>
+      <englishmeaning>Discus-bearer, wheel-holder</englishmeaning>
+      <context>चक्रधराय नमः। चन्द्रशेखराय नमः।</context>
+      <etymology>cakra (wheel/discus) + dhara (bearer)</etymology>
+    </Name>
+  </SanskritNames>
+  <TamilNames>
+    <Name>
+      <tamilscript>சரணம்</tamilscript>
+      <transliteration>caraṇam</transliteration>
+      <source>thiruppugazh</source>
+      <reference>Line 2</reference>
+      <lexicondefinition>சரணம் - refuge, protection, feet of deity</lexicondefinition>
+      <englishmeaning>Sacred feet, refuge, surrender</englishmeaning>
+      <context>சரணம் சரணம் என்று சொல்லி வருவார்</context>
+      <devotionalsignificance>Surrender to Lord Murugan's feet</devotionalsignificance>
+    </Name>
+    <Name>
+      <tamilscript>சன்முகன்</tamilscript>
+      <transliteration>caṉmukaṉ</transliteration>
+      <source>thiruppugazh</source>
+      <reference>Line 3</reference>
+      <lexicondefinition>சன்முகன் - six-faced deity</lexicondefinition>
+      <englishmeaning>Six-faced Lord (Murugan)</englishmeaning>
+      <context>சன்முகன் பாதம் பணிந்து நிற்பார்</context>
+      <devotionalsignificance>Primary name for Lord Murugan</devotionalsignificance>
+    </Name>
+  </TamilNames>
+</SubramanyaNamesCorpus>

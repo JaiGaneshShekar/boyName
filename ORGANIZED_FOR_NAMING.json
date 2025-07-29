@@ -1,0 +1,377 @@
+{
+  "thiruppugazh_tamil_names": [
+    {
+      "name": "சரணம்",
+      "meaning": "Sacred feet, refuge, surrender",
+      "context": "Universal address for surrender to Murugan"
+    },
+    {
+      "name": "சரவணன்",
+      "meaning": "Born in Saravana reed grove",
+      "context": "Primary birth story reference"
+    },
+    {
+      "name": "சண்முகன்",
+      "meaning": "Six-faced divine form",
+      "context": "Primary iconographic form"
+    },
+    {
+      "name": "சக்திவேல்",
+      "meaning": "Divine spear of power",
+      "context": "Primary weapon symbolism"
+    },
+    {
+      "name": "சாமி",
+      "meaning": "Lord, master, deity",
+      "context": "Most common respectful address"
+    },
+    {
+      "name": "சந்திரமுகன்",
+      "meaning": "Moon-faced, beautiful as moon",
+      "context": "Divine beauty comparison"
+    },
+    {
+      "name": "சாருவடன்",
+      "meaning": "Beautiful-faced, graceful",
+      "context": "Graceful divine appearance"
+    },
+    {
+      "name": "சக்ராதாரி",
+      "meaning": "Discus bearer, wheel holder",
+      "context": "Bearer of cosmic wheel"
+    },
+    {
+      "name": "சதுர்புஜன்",
+      "meaning": "Four-armed divine form",
+      "context": "Multi-armed divine power"
+    },
+    {
+      "name": "சைதன்யன்",
+      "meaning": "Divine consciousness, awareness",
+      "context": "Awakening of consciousness"
+    },
+    {
+      "name": "சர்வேஸ்வரன்",
+      "meaning": "Lord of all, universal ruler",
+      "context": "Supreme divine authority"
+    },
+    {
+      "name": "சந்தானன்",
+      "meaning": "Eternal, continuous divine",
+      "context": "Eternal divine nature"
+    },
+    {
+      "name": "சாமிநாதன்",
+      "meaning": "Lord master, divine ruler",
+      "context": "Respectful lordship address"
+    },
+    {
+      "name": "சமீகாந்தன்",
+      "meaning": "Beloved of devotees",
+      "context": "Close devotee relationship"
+    },
+    {
+      "name": "சரவணபவன்",
+      "meaning": "Born in Saravana grove",
+      "context": "Complete birth epithet"
+    },
+    {
+      "name": "சண்முகேஸ்வரன்",
+      "meaning": "Lord of six faces",
+      "context": "Supreme six-faced lord"
+    },
+    {
+      "name": "சங்கரன்",
+      "meaning": "Auspicious, beneficent",
+      "context": "Benevolent divine nature"
+    },
+    {
+      "name": "சச்சிதானந்தன்",
+      "meaning": "Existence-consciousness-bliss",
+      "context": "Supreme spiritual reality"
+    },
+    {
+      "name": "சர்வாந்தர்யாமி",
+      "meaning": "Inner controller of all",
+      "context": "Divine presence in all beings"
+    },
+    {
+      "name": "சாக்ஷாத்காரன்",
+      "meaning": "Direct realization, manifestation",
+      "context": "Direct divine experience"
+    }
+  ],
+  "sanskrit_classical_names": [
+    {
+      "name": "सुब्रह्मण्य",
+      "meaning": "Very auspicious, excellent Brahmana",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "षण्मुख",
+      "meaning": "Six-faced",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "सर्वज्ञ",
+      "meaning": "All-knowing, omniscient",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "सत्यव्रत",
+      "meaning": "Devoted to truth",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "शूलपाणि",
+      "meaning": "Trident-bearer",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "शुभ",
+      "meaning": "Auspicious, good",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "शांत",
+      "meaning": "Peaceful, tranquil",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "चतुर्भुज",
+      "meaning": "Four-armed",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "चक्रधर",
+      "meaning": "Discus-bearer",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "चन्द्रशेखर",
+      "meaning": "Moon-crested",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "सुब्रह्मण्याय",
+      "meaning": "To the excellent Brahmana",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "षण्मुखाय",
+      "meaning": "To the six-faced one",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "शूलहस्ताय",
+      "meaning": "To the trident-handed",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "चतुर्भुजाय",
+      "meaning": "To the four-armed",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "चन्द्रकेतवे",
+      "meaning": "To the moon-bannered",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "सत्यप्रियाय",
+      "meaning": "To the truth-loving",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "शान्तमूर्तये",
+      "meaning": "To the peaceful-formed",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "सर्वज्ञाय",
+      "meaning": "To the all-knowing",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "चराचरगुरवे",
+      "meaning": "To the teacher of moving and unmoving",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "सर्वमङ्गलमङ्गल्याय",
+      "meaning": "To the auspicious of all auspicious",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "षड्विकारवर्जिताय",
+      "meaning": "Free from six modifications",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "चन्द्रकान्तिसमप्रभाय",
+      "meaning": "Brilliant like moonlight",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "चतुर्वेदविदे",
+      "meaning": "Knower of four Vedas",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "सर्वलोकैकनेत्राय",
+      "meaning": "Single eye of all worlds",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "चराचरजगत्प्रभवे",
+      "meaning": "Source of moving and unmoving world",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "सर्वविघ्नहराय",
+      "meaning": "Remover of all obstacles",
+      "source": "stotrams"
+    },
+    {
+      "name": "शत्रुसंहारकाय",
+      "meaning": "Destroyer of enemies",
+      "source": "stotrams"
+    },
+    {
+      "name": "चन्द्रार्धकृतशेखराय",
+      "meaning": "Crowned with half-moon",
+      "source": "stotrams"
+    },
+    {
+      "name": "सिद्धिदाय",
+      "meaning": "Giver of accomplishments",
+      "source": "stotrams"
+    },
+    {
+      "name": "शुभाशुभफलप्रदाय",
+      "meaning": "Giver of good and neutralizer of bad results",
+      "source": "stotrams"
+    },
+    {
+      "name": "सुरेन्द्रवन्दिताय",
+      "meaning": "Worshipped by king of gods",
+      "source": "stotrams"
+    },
+    {
+      "name": "चतुष्पदाधिष्ठाताय",
+      "meaning": "Presiding over four-footed beings",
+      "source": "stotrams"
+    },
+    {
+      "name": "सर्वमन्त्रमयाय",
+      "meaning": "Embodiment of all mantras",
+      "source": "stotrams"
+    },
+    {
+      "name": "शान्त्यतीतपराय",
+      "meaning": "Beyond peace itself",
+      "source": "stotrams"
+    }
+  ],
+  "devotional_addresses": [
+    {
+      "name": "सुब्रह्मण्यदेवाय",
+      "meaning": "To Lord Subrahmanya",
+      "source": "shatanamavali"
+    }
+  ],
+  "philosophical_names": [
+    {
+      "name": "सनातन",
+      "meaning": "Eternal, ancient",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "शाश्वत",
+      "meaning": "Eternal, perpetual",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "चैतन्य",
+      "meaning": "Consciousness, awareness",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "चित्",
+      "meaning": "Pure consciousness",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "चैतन्यरूपाय",
+      "meaning": "To the consciousness-formed",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "शाश्वताय",
+      "meaning": "To the eternal",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "चित्शक्तिमयाय",
+      "meaning": "Composed of consciousness-power",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "शुद्धचैतन्यमूर्तये",
+      "meaning": "Pure consciousness embodied",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "सत्चित्सुखस्वरूपाय",
+      "meaning": "Nature of existence-consciousness-bliss",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "चित्तशुद्धिकराय",
+      "meaning": "Purifier of consciousness",
+      "source": "stotrams"
+    },
+    {
+      "name": "चिदाकाशस्वरूपाय",
+      "meaning": "Nature of consciousness-space",
+      "source": "stotrams"
+    }
+  ],
+  "power_epithets": [
+    {
+      "name": "समर",
+      "meaning": "Warrior, battle",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "सेनानी",
+      "meaning": "Army commander, general",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "शक्तिधर",
+      "meaning": "Bearer of power",
+      "source": "skanda_purana"
+    },
+    {
+      "name": "सेनान्ये",
+      "meaning": "To the army leader",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "शक्तिधराय",
+      "meaning": "To the power-bearer",
+      "source": "ashtottaram"
+    },
+    {
+      "name": "शक्तितत्त्वस्वरूपाय",
+      "meaning": "Essence of power principle",
+      "source": "shatanamavali"
+    },
+    {
+      "name": "शक्तिकेतवे",
+      "meaning": "Having power as banner",
+      "source": "stotrams"
+    }
+  ]
+}
