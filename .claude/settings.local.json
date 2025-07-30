@@ -6,7 +6,9 @@
       "Bash(python3 chaarvik_analysis.py)",
       "WebFetch(domain:kaumaram.com)",
       "WebFetch(domain:murugan.org)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(cut:*)"
     ],
     "deny": []
   }

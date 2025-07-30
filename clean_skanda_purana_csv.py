@@ -23,6 +23,15 @@ def clean_skanda_purana_csv():
             # Common English words the user mentioned
             'someone', 'sexual', 'semen', 'speak', 'sports', 'search', 'stage', 'separate', 'seventy', 'species',
             
+            # Additional English words found in data
+            'slowly', 'sand', 'suns', 'carefully', 'seasons', 'sunday', 'sundays', 'seems', 'salute', 'sacrifices',
+            'subtle', 'spirit', 'scrupulously', 'swan', 'surely', 'succinctly', 'swans', 'salt', 'sire', 'sandals',
+            'characteristic', 'slain', 'smoke', 'slave', 'capital', 'supernatural', 'star', 'simultaneously',
+            'science', 'somehow', 'skulls', 'slay', 'sanctify', 'seventeen', 'showers', 'swords', 'saturn',
+            'spear', 'chapters', 'shadow', 'sanctifier', 'seer', 'scholars', 'stupid', 'smilingly', 'sands',
+            'snow', 'signs', 'sapphire', 'chastiser', 'saturday', 'slumber', 'submarine', 'studies', 'subdue',
+            'sphere', 'seers', 'chap',
+            
             # Additional common English words that shouldn't be baby names
             'service', 'secret', 'seat', 'seek', 'sent', 'save', 'cast', 'carry',
             'capable', 'separation', 'subjects', 'similarly', 'satisfaction', 
