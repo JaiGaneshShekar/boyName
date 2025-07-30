@@ -15,8 +15,8 @@ def create_skanda_html():
     print("="*50)
     
     try:
-        # Use the authentic Sanskrit baby names CSV
-        df = pd.read_csv('AUTHENTIC_SANSKRIT_BABY_NAMES.csv')
+        # Use the cleaned authentic Sanskrit baby names CSV
+        df = pd.read_csv('CLEANED_AUTHENTIC_SANSKRIT_BABY_NAMES.csv')
         print(f"✅ Loaded Skanda Purana names: {len(df)} authentic names")
     except FileNotFoundError:
         print("❌ Authentic Sanskrit baby names CSV not found!")
